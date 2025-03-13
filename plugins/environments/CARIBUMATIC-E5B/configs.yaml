@@ -1,0 +1,6 @@
+---
+name: CARIBUMATIC-E5B
+description: "environment for CARIBUMATIC-E5B"
+version: "0.1"
+dependencies:
+  - badger-opt

@@ -1,0 +1,125 @@
+critical_constraint_names: []
+data:
+  LAUREL_RATEMETER:MONITOR:
+    '0': 32.2298646795
+    '1': 21.0194769649
+    '2': 28.0259692865
+  QDK001:CONTROL_X:
+    '0': 491.0
+    '1': 240.4982126255
+    '2': 500.0
+  QDK001:CONTROL_Y:
+    '0': 230.0
+    '1': 440.984241856
+    '2': 200.0
+  STK000:CONTROL_X:
+    '0': 439.0
+    '1': -447.6538103088
+    '2': 600.0
+  STK000:CONTROL_Y:
+    '0': -345.0
+    '1': 560.3035803898
+    '2': -600.0
+  STK001:CONTROL_X:
+    '0': 169.0
+    '1': 115.4776487499
+    '2': -274.4113640905
+  STK001:CONTROL_Y:
+    '0': 581.0
+    '1': -400.9054821
+    '2': 600.0
+  timestamp:
+    '0': 1722545823.96701
+    '1': 1722545927.26852
+    '2': 1722546034.745909
+  xopt_error:
+    '0': false
+    '1': false
+    '2': false
+  xopt_runtime:
+    '0': 102.630006219
+    '1': 102.6690243718
+    '2': 106.236824109
+description: ''
+environment:
+  interface:
+    name: CARIBU-matic
+    params:
+      params: null
+  name: CARIBU-matic
+  params:
+    params: null
+generator:
+  beta: 2.0
+  computation_time:
+    acquisition_optimization:
+      '0': 0.1210826419
+      '1': 1.0178533851
+    training:
+      '0': 0.3856401981
+      '1': 0.09726642
+  custom_objective: null
+  fixed_features: null
+  gp_constructor:
+    covar_modules: {}
+    custom_noise_prior: null
+    mean_modules: {}
+    name: standard
+    trainable_mean_keys: []
+    transform_inputs: true
+    use_low_noise_prior: false
+  log_transform_acquisition_function: null
+  max_travel_distances: null
+  n_candidates: 1
+  n_interpolate_points: null
+  n_monte_carlo_samples: 128
+  name: upper_confidence_bound
+  numerical_optimizer:
+    max_iter: 2000
+    max_time: null
+    n_restarts: 20
+    name: LBFGS
+  supports_batch_generation: true
+  turbo_controller: null
+  use_cuda: false
+initial_points:
+  QDK001:CONTROL_X:
+    '0': 491.0
+  QDK001:CONTROL_Y:
+    '0': 230.0
+  STK000:CONTROL_X:
+    '0': 439.0
+  STK000:CONTROL_Y:
+    '0': -345.0
+  STK001:CONTROL_X:
+    '0': 169.0
+  STK001:CONTROL_Y:
+    '0': 581.0
+name: caribumatic ucb beta=2 ci 2
+script: null
+tags: null
+vocs:
+  constants: {}
+  constraints: {}
+  objectives:
+    LAUREL_RATEMETER:MONITOR: MAXIMIZE
+  observables: []
+  variables:
+    QDK001:CONTROL_X:
+    - 200.0
+    - 500.0
+    QDK001:CONTROL_Y:
+    - 200.0
+    - 500.0
+    STK000:CONTROL_X:
+    - -600.0
+    - 600.0
+    STK000:CONTROL_Y:
+    - -600.0
+    - 600.0
+    STK001:CONTROL_X:
+    - -600.0
+    - 600.0
+    STK001:CONTROL_Y:
+    - -600.0
+    - 600.0

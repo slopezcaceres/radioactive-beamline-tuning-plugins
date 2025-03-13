@@ -1,0 +1,6 @@
+---
+name: CARIBUMATIC-K0
+description: "environment for CARIBUMATIC-K3B"
+version: "0.1"
+dependencies:
+  - badger-opt

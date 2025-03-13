@@ -1,0 +1,168 @@
+critical_constraint_names: []
+data:
+  norm:
+    '0': 6.164414003
+    '1': 14.1421356237
+    '10': 17.3205080757
+    '2': 14.8590250174
+    '3': 12.2765630786
+    '4': 12.7381620365
+    '5': 16.4961011488
+    '6': 16.2451018398
+    '7': 16.3206073401
+    '8': 17.3205080757
+    '9': 17.3205080757
+  timestamp:
+    '0': 1722539652.933818
+    '1': 1722539653.220636
+    '10': 1722539656.682613
+    '2': 1722539653.601877
+    '3': 1722539653.964432
+    '4': 1722539654.294364
+    '5': 1722539654.642679
+    '6': 1722539655.063415
+    '7': 1722539655.436254
+    '8': 1722539655.884867
+    '9': 1722539656.349242
+  x:
+    '0': 3.0
+    '1': 10.0
+    '10': 10.0
+    '2': 10.0
+    '3': 6.5508174386
+    '4': 10.0
+    '5': 10.0
+    '6': 7.9939560786
+    '7': 10.0
+    '8': 10.0
+    '9': 10.0
+  xopt_error:
+    '0': false
+    '1': false
+    '10': false
+    '2': false
+    '3': false
+    '4': false
+    '5': false
+    '6': false
+    '7': false
+    '8': false
+    '9': false
+  xopt_runtime:
+    '0': 0.0003317208
+    '1': 0.0002935049
+    '10': 0.0002956819
+    '2': 0.0002811931
+    '3': 0.000296586
+    '4': 0.000294243
+    '5': 0.000294263
+    '6': 0.0002943401
+    '7': 0.000307332
+    '8': 0.00030781
+    '9': 0.0004154369
+  y:
+    '0': 2.0
+    '1': 10.0
+    '10': 10.0
+    '2': 10.0
+    '3': 10.0
+    '4': 7.3580796795
+    '5': 10.0
+    '6': 10.0
+    '7': 8.1463012435
+    '8': 10.0
+    '9': 10.0
+  z:
+    '0': 5.0
+    '1': 0.0
+    '10': 10.0
+    '2': 4.5596737239
+    '3': 2.7929897797
+    '4': 2.8494623173
+    '5': 8.4924291644
+    '6': 10.0
+    '7': 10.0
+    '8': 10.0
+    '9': 10.0
+description: ''
+environment:
+  interface: null
+  name: myenv
+  params: null
+generator:
+  beta: 2.0
+  computation_time:
+    acquisition_optimization:
+      '0': 0.105480229
+      '1': 0.1930322491
+      '10': 0.113333184
+      '2': 0.1490524351
+      '3': 0.1064391159
+      '4': 0.1182728789
+      '5': 0.1552084752
+      '6': 0.1108929091
+      '7': 0.1799358411
+      '8': 0.1100562641
+      '9': 0.0823213719
+    training:
+      '0': 0.067228782
+      '1': 0.074763672
+      '10': 0.1536541199
+      '2': 0.10103551
+      '3': 0.1123507919
+      '4': 0.115069546
+      '5': 0.1534513419
+      '6': 0.1520160649
+      '7': 0.1591433769
+      '8': 0.240956469
+      '9': 0.1386408829
+  custom_objective: null
+  fixed_features: null
+  gp_constructor:
+    covar_modules: {}
+    custom_noise_prior: null
+    mean_modules: {}
+    name: standard
+    trainable_mean_keys: []
+    transform_inputs: true
+    use_low_noise_prior: false
+  log_transform_acquisition_function: null
+  max_travel_distances: null
+  n_candidates: 1
+  n_interpolate_points: null
+  n_monte_carlo_samples: 128
+  name: upper_confidence_bound
+  numerical_optimizer:
+    max_iter: 2000
+    max_time: null
+    n_restarts: 20
+    name: LBFGS
+  supports_batch_generation: true
+  turbo_controller: null
+  use_cuda: false
+initial_points:
+  x:
+    '0': 3.0
+  y:
+    '0': 2.0
+  z:
+    '0': 5.0
+name: transparent-copperhead 10  ucb
+script: null
+tags: null
+vocs:
+  constants: {}
+  constraints: {}
+  objectives:
+    norm: MAXIMIZE
+  observables: []
+  variables:
+    x:
+    - 0.0
+    - 10.0
+    y:
+    - 0.0
+    - 10.0
+    z:
+    - 0.0
+    - 10.0

@@ -1,0 +1,76 @@
+critical_constraint_names: []
+data:
+  norm:
+    '0': 7.3484692283
+  timestamp:
+    '0': 1722369942.499836
+  x:
+    '0': 5.0
+  xopt_error:
+    '0': false
+  xopt_runtime:
+    '0': 0.0004806209
+  y:
+    '0': 2.0
+  z:
+    '0': 5.0
+description: ''
+environment:
+  interface: null
+  name: myenv
+  params: null
+generator:
+  added_time: 0.1
+  beta: 2.0
+  computation_time: null
+  custom_objective: null
+  fixed_features: null
+  gp_constructor:
+    covar_modules: {}
+    custom_noise_prior: null
+    mean_modules: {}
+    name: time_dependent
+    trainable_mean_keys: []
+    transform_inputs: true
+    use_low_noise_prior: false
+  log_transform_acquisition_function: null
+  max_travel_distances: null
+  model: null
+  n_candidates: 1
+  n_interpolate_points: null
+  n_monte_carlo_samples: 128
+  name: time_dependent_upper_confidence_bound
+  numerical_optimizer:
+    max_iter: 2000
+    max_time: null
+    n_restarts: 20
+    name: LBFGS
+  target_prediction_time: 1722369942.711919
+  turbo_controller: null
+  use_cuda: false
+initial_points:
+  x:
+    '0': 5.0
+  y:
+    '0': 2.0
+  z:
+    '0': 5.0
+name: transparent-copperhead 9 ucb time
+script: null
+tags: null
+vocs:
+  constants: {}
+  constraints: {}
+  objectives:
+    norm: MAXIMIZE
+  observables: []
+  variables:
+    x:
+    - 0.0
+    - 10.0
+    y:
+    - 0.0
+    - 10.0
+    z:
+    - 0.0
+    - 10.0

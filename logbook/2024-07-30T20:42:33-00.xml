@@ -1,0 +1,21 @@
+<severity>NONE</severity>
+<location>not set</location>
+<keywords>none</keywords>
+<time>20:42:33</time>
+<isodate>2024-07-30</isodate>
+<author> </author>
+<category>USERLOG</category>
+<title>Badger</title>
+<metainfo>2024-07-30T20:42:33-00.xml</metainfo>
+<link>2024-07-30T20:42:33-00.ps</link>
+<file>2024-07-30T20:42:33-00.png</file>
+<text>Gain (LAUREL_RATEMETER:MONITOR): 2.8026 -&gt; 7.0065
+Time cost: 62.24s
+Points requested: 27
+Optimal solution index: 22
+Routine name: caribumatic ucb
+Environment name: CARIBU-matic
+Optimization algorithm: upper_confidence_bound
+Data location: /Users/Sergiolopez/Library/Application Support/Badger/archive
+Log location: /Users/Sergiolopez/Library/Application Support/Badger/logbook
+</text>

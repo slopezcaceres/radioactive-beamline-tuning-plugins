@@ -1,0 +1,21 @@
+<severity>NONE</severity>
+<location>not set</location>
+<keywords>none</keywords>
+<time>10:45:28</time>
+<isodate>2024-10-01</isodate>
+<author> </author>
+<category>USERLOG</category>
+<title>Badger</title>
+<metainfo>2024-10-01T10:45:28-00.xml</metainfo>
+<link>2024-10-01T10:45:28-00.ps</link>
+<file>2024-10-01T10:45:28-00.png</file>
+<text>Gain (LAUREL_RATEMETER:MONITOR): 418.8481 -&gt; 558.1372
+Time cost: 781.85s
+Points requested: 122
+Optimal solution index: 116
+Routine name: caribumatic K3B fewer parameters beta=2 ci 75
+Environment name: CARIBUMATIC-K3B
+Optimization algorithm: upper_confidence_bound
+Data location: /Users/Sergiolopez/Library/Application Support/Badger/archive
+Log location: /Users/Sergiolopez/Library/Application Support/Badger/logbook
+</text>

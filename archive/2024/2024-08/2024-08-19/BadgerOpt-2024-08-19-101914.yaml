@@ -1,0 +1,316 @@
+critical_constraint_names: []
+data:
+  LAUREL_RATEMETER:MONITOR:
+    '0': 78.4727140022
+    '1': 78.4727140022
+    '2': 79.4536229272
+    '3': 78.4727140022
+    '4': 79.4536229272
+    '5': 79.4536229272
+    '6': 79.4536229272
+    '7': 79.4536229272
+    '8': 78.4727140022
+    '9': 1.135051756e-43
+  QDK001:CONTROL_X:
+    '0': 413.0
+    '1': 200.0
+    '2': 233.9769358772
+    '3': 201.0331496414
+    '4': 255.8980124627
+    '5': 255.0559995102
+    '6': 298.0464298366
+    '7': 263.4848236436
+    '8': 254.5290565424
+    '9': 269.0582406877
+  QDK001:CONTROL_Y:
+    '0': 316.0
+    '1': 500.0
+    '2': 363.0447950309
+    '3': 345.1550455736
+    '4': 378.7272757526
+    '5': 352.7660180064
+    '6': 369.5413476882
+    '7': 409.5974815252
+    '8': 403.7989466565
+    '9': 336.8056570896
+  STK000:CONTROL_X:
+    '0': 470.0
+    '1': -513.7348457255
+    '2': -330.0647397072
+    '3': -620.2954896089
+    '4': -109.725862458
+    '5': -290.9309130793
+    '6': -341.5355175202
+    '7': -295.4242088714
+    '8': -195.5361807628
+    '9': -424.8610142686
+  STK000:CONTROL_Y:
+    '0': 110.0
+    '1': 18.5328007366
+    '2': -743.537954055
+    '3': -800.0
+    '4': -734.9000519045
+    '5': -442.1375500625
+    '6': -729.6755790533
+    '7': -676.0830466371
+    '8': -501.0541737803
+    '9': -800.0
+  STK001:CONTROL_X:
+    '0': -70.0
+    '1': 789.1140136017
+    '2': -536.8396211797
+    '3': -799.3701838708
+    '4': -343.2703280621
+    '5': -418.1747401232
+    '6': -399.6651815377
+    '7': -529.7978419394
+    '8': -445.4737750458
+    '9': -491.6210796229
+  STK001:CONTROL_Y:
+    '0': -120.0
+    '1': -385.1174419454
+    '2': 590.8176173848
+    '3': 799.8311157983
+    '4': 448.6982289239
+    '5': 397.3591206672
+    '6': 581.0564410605
+    '7': 355.2906109032
+    '8': 677.5791155148
+    '9': 401.8291478117
+  timestamp:
+    '0': 1724080754.252013
+    '1': 1724080758.122689
+    '2': 1724080761.457859
+    '3': 1724080765.319093
+    '4': 1724080768.987982
+    '5': 1724080773.26784
+    '6': 1724080777.161834
+    '7': 1724080781.470667
+    '8': 1724080785.388911
+    '9': 1724080812.756288
+  xopt_error:
+    '0': false
+    '1': false
+    '2': false
+    '3': false
+    '4': false
+    '5': false
+    '6': false
+    '7': false
+    '8': false
+    '9': false
+  xopt_runtime:
+    '0': 3.0735309091
+    '1': 3.2087236119
+    '2': 3.070447498
+    '3': 3.064464885
+    '4': 3.0611422791
+    '5': 3.0705444161
+    '6': 3.062022404
+    '7': 3.1319672961
+    '8': 3.0781982229
+    '9': 26.111126927
+description: ''
+environment:
+  interface:
+    difference: 1.1350517561031018e-43
+    difference_read: true
+    environment:
+      interface:
+        difference: 1.1350517561031018e-43
+        difference_read: true
+        environment: environments.CARIBU-matic.Environment
+        first_get_values_called: true
+        half_life_D: 630.6
+        half_life_G: 5508.0
+        half_life_P: 6.05
+        last_values:
+          QDK001:CONTROL_X: 269.058240687663
+          QDK001:CONTROL_Y: 336.8056570895934
+          STK000:CONTROL_X: -424.8610142685988
+          STK000:CONTROL_Y: -800.0
+          STK001:CONTROL_X: -491.6210796229311
+          STK001:CONTROL_Y: 401.82914781174173
+        main_thread_set_values_executed: true
+        new_rate: -1.401298464324817e-45
+        old_parameters:
+          QDK001:CONTROL_X: 254.52905654240956
+          QDK001:CONTROL_Y: 403.798946656487
+          STK000:CONTROL_X: -195.5361807627782
+          STK000:CONTROL_Y: -501.0541737802836
+          STK001:CONTROL_X: -445.4737750457867
+          STK001:CONTROL_Y: 677.5791155147896
+        old_rate: 1.1210387714598537e-43
+        params:
+          difference: null
+          difference_read: false
+          environment: null
+          first_get_values_called: false
+          half_life_D: null
+          half_life_G: null
+          half_life_P: null
+          last_values: null
+          main_thread_set_values_executed: false
+          new_rate: null
+          old_parameters: null
+          old_rate: null
+          params: null
+          stop_thread: false
+        stop_thread: false
+      params:
+        difference: null
+        difference_read: false
+        environment: null
+        first_get_values_called: false
+        half_life_D: null
+        half_life_G: null
+        half_life_P: null
+        last_values: null
+        main_thread_set_values_executed: false
+        new_rate: null
+        old_parameters: null
+        old_rate: null
+        params: null
+        stop_thread: false
+    first_get_values_called: true
+    half_life_D: 630.6
+    half_life_G: 5508.0
+    half_life_P: 6.05
+    last_values:
+      QDK001:CONTROL_X: 269.058240687663
+      QDK001:CONTROL_Y: 336.8056570895934
+      STK000:CONTROL_X: -424.8610142685988
+      STK000:CONTROL_Y: -800.0
+      STK001:CONTROL_X: -491.6210796229311
+      STK001:CONTROL_Y: 401.82914781174173
+    main_thread_set_values_executed: true
+    name: CARIBU-matic
+    new_rate: -1.401298464324817e-45
+    old_parameters:
+      QDK001:CONTROL_X: 254.52905654240956
+      QDK001:CONTROL_Y: 403.798946656487
+      STK000:CONTROL_X: -195.5361807627782
+      STK000:CONTROL_Y: -501.0541737802836
+      STK001:CONTROL_X: -445.4737750457867
+      STK001:CONTROL_Y: 677.5791155147896
+    old_rate: 1.1210387714598537e-43
+    params:
+      difference: null
+      difference_read: false
+      environment: null
+      first_get_values_called: false
+      half_life_D: null
+      half_life_G: null
+      half_life_P: null
+      last_values: null
+      main_thread_set_values_executed: false
+      new_rate: null
+      old_parameters: null
+      old_rate: null
+      params: null
+      stop_thread: false
+    stop_thread: false
+  name: CARIBU-matic
+  params:
+    difference: null
+    difference_read: false
+    environment: null
+    first_get_values_called: false
+    half_life_D: null
+    half_life_G: null
+    half_life_P: null
+    last_values: null
+    main_thread_set_values_executed: false
+    new_rate: null
+    old_parameters: null
+    old_rate: null
+    params: null
+    stop_thread: false
+generator:
+  beta: 2.0
+  computation_time:
+    acquisition_optimization:
+      '0': 0.1702592871
+      '1': 0.0232092668
+      '2': 0.5702453242
+      '3': 0.4079410459
+      '4': 0.9982090001
+      '5': 0.5941112039
+      '6': 0.934662635
+      '7': 0.5227568031
+      '8': 0.9503789952
+    training:
+      '0': 0.367402548
+      '1': 0.126815239
+      '2': 0.0992987501
+      '3': 0.0847439759
+      '4': 0.0960193111
+      '5': 0.1196643349
+      '6': 0.1231879152
+      '7': 0.1975938012
+      '8': 0.189271105
+  custom_objective: null
+  fixed_features: null
+  gp_constructor:
+    covar_modules: {}
+    custom_noise_prior: null
+    mean_modules: {}
+    name: standard
+    trainable_mean_keys: []
+    transform_inputs: true
+    use_low_noise_prior: false
+  log_transform_acquisition_function: null
+  max_travel_distances: null
+  n_candidates: 1
+  n_interpolate_points: null
+  n_monte_carlo_samples: 128
+  name: upper_confidence_bound
+  numerical_optimizer:
+    max_iter: 2000
+    max_time: null
+    n_restarts: 20
+    name: LBFGS
+  supports_batch_generation: true
+  turbo_controller: null
+  use_cuda: false
+initial_points:
+  QDK001:CONTROL_X:
+    '0': 413.0
+  QDK001:CONTROL_Y:
+    '0': 316.0
+  STK000:CONTROL_X:
+    '0': 470.0
+  STK000:CONTROL_Y:
+    '0': 110.0
+  STK001:CONTROL_X:
+    '0': -70.0
+  STK001:CONTROL_Y:
+    '0': -120.0
+name: caribumatic ucb beta=2 ci 24 bkg check
+script: null
+tags: null
+vocs:
+  constants: {}
+  constraints: {}
+  objectives:
+    LAUREL_RATEMETER:MONITOR: MAXIMIZE
+  observables: []
+  variables:
+    QDK001:CONTROL_X:
+    - 200.0
+    - 500.0
+    QDK001:CONTROL_Y:
+    - 200.0
+    - 500.0
+    STK000:CONTROL_X:
+    - -800.0
+    - 800.0
+    STK000:CONTROL_Y:
+    - -800.0
+    - 800.0
+    STK001:CONTROL_X:
+    - -800.0
+    - 800.0
+    STK001:CONTROL_Y:
+    - -800.0
+    - 800.0
