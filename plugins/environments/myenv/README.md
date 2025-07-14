@@ -1,0 +1,1 @@
+# First example of plugin from the Badger Guides

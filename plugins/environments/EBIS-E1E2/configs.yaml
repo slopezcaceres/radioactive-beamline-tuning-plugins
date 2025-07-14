@@ -1,0 +1,5 @@
+name: EBIS-E1E2
+description: "environment for EBIS-E1E2"
+version: "0.1"
+dependencies:
+  - badger-opt

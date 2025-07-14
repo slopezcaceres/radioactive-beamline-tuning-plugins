@@ -1,0 +1,5 @@
+name: CARIBUMATIC-K4E5A
+description: "environment for CARIBUMATIC-K4E5A"
+version: "0.1"
+dependencies:
+  - badger-opt

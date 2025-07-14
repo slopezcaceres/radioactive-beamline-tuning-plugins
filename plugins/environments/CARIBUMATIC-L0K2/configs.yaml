@@ -1,0 +1,5 @@
+name: CARIBUMATIC-L0K2
+description: "environment for CARIBUMATIC-L0K2"
+version: "0.1"
+dependencies:
+  - badger-opt

@@ -1,0 +1,5 @@
+name: sphere_2d
+description: "2D sphere test environment"
+version: "0.1"
+dependencies:
+  - badger-opt

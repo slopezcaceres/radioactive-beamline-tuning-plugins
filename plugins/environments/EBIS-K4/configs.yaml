@@ -1,0 +1,5 @@
+name: EBIS-K4
+description: "environment for EBIS-K4"
+version: "0.1"
+dependencies:
+  - badger-opt

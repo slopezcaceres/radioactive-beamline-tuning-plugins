@@ -1,0 +1,4 @@
+name: myintf
+version: "0.1"
+dependencies:
+  - badger-opt

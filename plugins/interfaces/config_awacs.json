@@ -1,0 +1,588 @@
+{
+    "good_tune": {
+        "K0": [
+            {
+                "device": "QDK001",
+                "chan": "CONTROL_X",
+                "val": 379.1
+            },
+            {
+                "device": "QDK001",
+                "chan": "CONTROL_Y",
+                "val": 304.1
+            },
+            {
+                "device": "QHK001",
+                "chan": "CONTROL_X",
+                "val": 101.1
+            },
+            {
+                "device": "QSK001",
+                "chan": "CONTROL_Y",
+                "val": 324.1
+            },
+            {
+                "device": "STK000",
+                "chan": "CONTROL_X",
+                "val": -20.1
+            },
+            {
+                "device": "STK000",
+                "chan": "CONTROL_Y",
+                "val": -50.1
+            },
+            {
+                "device": "STK001",
+                "chan": "CONTROL_X",
+                "val": -309.1
+            },
+            {
+                "device": "STK001",
+                "chan": "CONTROL_Y",
+                "val": -135.1
+            }
+        ],
+        "K1": [
+            {
+                "device": "QHK101",
+                "chan": "CONTROL",
+                "val": 72.17664135754869
+            },
+            {
+                "device": "QSK101",
+                "chan": "CONTROL_Y",
+                "val": 97.09121221949444
+            },
+            {
+                "device": "QTK101",
+                "chan": "CONTROL_X",
+                "val": 1196.2625922302461
+            },
+            {
+                "device": "QTK101",
+                "chan": "CONTROL_X2",
+                "val": 596.3555879268748
+            },
+            {
+                "device": "QTK101",
+                "chan": "CONTROL_Y",
+                "val": 757.6415443404303
+            },
+            {
+                "device": "STK101",
+                "chan": "CONTROL_X",
+                "val": -100.82642159072556
+            },
+            {
+                "device": "STK101",
+                "chan": "CONTROL_Y",
+                "val": 351.31827026237
+            },
+            {
+                "device": "STK102",
+                "chan": "CONTROL_X",
+                "val": -87.20632785048154
+            },
+            {
+                "device": "STK102",
+                "chan": "CONTROL_Y",
+                "val": 548.9623813409089
+            }
+        ],
+        "K1B": [
+            {
+                "device": "EDK101",
+                "chan": "CONTROL",
+                "val": 4521.217189950928
+            },
+            {
+                "device": "EDK102",
+                "chan": "CONTROL",
+                "val": 4651.051331125344
+            }
+        ],
+        "L0": [
+            {
+                "device": "QTL001",
+                "chan": "CONTROL_X1",
+                "val": 691.4917566285967
+            },
+            {
+                "device": "QTL001",
+                "chan": "CONTROL_X2",
+                "val": 629.4984493003792
+            },
+            {
+                "device": "QTL001",
+                "chan": "CONTROL_Y",
+                "val": 1021.3938311218913
+            },
+            {
+                "device": "STL001",
+                "chan": "CONTROL_X",
+                "val": -505.06365549619534
+            },
+            {
+                "device": "STL001",
+                "chan": "CONTROL_Y",
+                "val": 126.20663280149392
+            },
+            {
+                "device": "STL002",
+                "chan": "CONTROL_X",
+                "val": 136.20121405136388
+            },
+            {
+                "device": "STL002",
+                "chan": "CONTROL_Y",
+                "val": -74.57272958533133
+            }
+        ],
+        "L0B": [
+            {
+                "device": "EZL003",
+                "chan": "CONTROL",
+                "val": 1661
+            },
+            {
+                "device": "EZL004",
+                "chan": "CONTROL",
+                "val": 2136
+            },
+            {
+                "device": "STL003",
+                "chan": "CONTROL_X",
+                "val": -128.9
+            },
+            {
+                "device": "STL003",
+                "chan": "CONTROL_Y",
+                "val": -340.8
+            },
+            {
+                "device": "STL004",
+                "chan": "CONTROL_X",
+                "val": 34.42
+            },
+            {
+                "device": "STL004",
+                "chan": "CONTROL_Y",
+                "val": 95.4
+            }
+        ],
+        "L0K2": [
+            {
+                "device": "EDK201",
+                "chan": "CONTROL",
+                "val": 611.5356886118082
+            },
+            {
+                "device": "EZL005",
+                "chan": "CONTROL",
+                "val": 1952.409684195094
+            },
+            {
+                "device": "STK201",
+                "chan": "CONTROL_X",
+                "val": 196.9603841787034
+            },
+            {
+                "device": "STK201",
+                "chan": "CONTROL_Y",
+                "val": -43.70918751468724
+            },
+            {
+                "device": "STL005",
+                "chan": "CONTROL_X",
+                "val": -40.30289665396781
+            },
+            {
+                "device": "STL005",
+                "chan": "CONTROL_Y",
+                "val": -165.4809935104485
+            }
+        ],
+        "K2K3": [
+            {
+                "device": "EDK202",
+                "chan": "CONTROL",
+                "val": 590.1341349807471
+            },
+            {
+                "device": "EDK203",
+                "chan": "CONTROL",
+                "val": 633.6239645359589
+            },
+            {
+                "device": "EDK204",
+                "chan": "CONTROL",
+                "val": 615.0720979955819
+            },
+            {
+                "device": "STK202",
+                "chan": "CONTROL_X",
+                "val": -102.31227016676947
+            },
+            {
+                "device": "STK202",
+                "chan": "CONTROL_Y",
+                "val": -125.01962754640994
+            },
+            {
+                "device": "STK301",
+                "chan": "CONTROL_X",
+                "val": 143.56106303036802
+            },
+            {
+                "device": "STK301",
+                "chan": "CONTROL_Y",
+                "val": -302.1909053171085
+            }
+        ],
+        "K3A": [
+            {
+                "device": "QDK301",
+                "chan": "CONTROL_X",
+                "val": 975.1229180088121
+            },
+            {
+                "device": "QDK301",
+                "chan": "CONTROL_Y",
+                "val": 978.4001990146996
+            },
+            {
+                "device": "QDK302",
+                "chan": "CONTROL_X",
+                "val": 1104.5428973356093
+            },
+            {
+                "device": "QDK302",
+                "chan": "CONTROL_Y",
+                "val": 904.100734246729
+            },
+            {
+                "device": "STK302",
+                "chan": "CONTROL_X",
+                "val": -140.96201690263007
+            },
+            {
+                "device": "STK302",
+                "chan": "CONTROL_Y",
+                "val": 671.6870322782319
+            }
+        ],
+        "K3B": [
+            {
+                "device": "EDK301",
+                "chan": "CONTROL",
+                "val": 4262.521429279002
+            },
+            {
+                "device": "EDK302",
+                "chan": "CONTROL",
+                "val": 4345.048973973477
+            },
+            {
+                "device": "STK303",
+                "chan": "CONTROL_X",
+                "val": -909.8830036142748
+            },
+            {
+                "device": "STK303",
+                "chan": "CONTROL_Y",
+                "val": 389.72048618930376
+            },
+            {
+                "device": "STK304",
+                "chan": "CONTROL_X",
+                "val": 362.83880948133753
+            },
+            {
+                "device": "STK304",
+                "chan": "CONTROL_Y",
+                "val": 496.80309961216506
+            }
+        ],
+        "K3C": [
+            {
+                "device": "EDK303",
+                "chan": "CONTROL",
+                "val": 4382.194177926604
+            },
+            {
+                "device": "EDK304",
+                "chan": "CONTROL",
+                "val": 4305.137587732942
+            },
+            {
+                "device": "EZK302",
+                "chan": "CONTROL",
+                "val": 10399.70705760767
+            },
+            {
+                "device": "STK401",
+                "chan": "CONTROL_X",
+                "val": -39.25561900971177
+            },
+            {
+                "device": "STK401",
+                "chan": "CONTROL_Y",
+                "val": 439.52082120190187
+            }
+        ],
+        "E5B": [
+            {
+                "device": "QTE502_X1",
+                "chan": "CONTROL",
+                "val": 0
+            },
+            {
+                "device": "QTE502_X2",
+                "chan": "CONTROL",
+                "val": 0
+            },
+            {
+                "device": "QTE502_Y",
+                "chan": "CONTROL",
+                "val": 0
+            },
+            {
+                "device": "STE502_X",
+                "chan": "CONTROL",
+                "val": 0
+            },
+            {
+                "device": "STE502_Y",
+                "chan": "CONTROL",
+                "val": 0
+            },
+            {
+                "device": "STE503_X",
+                "chan": "CONTROL",
+                "val": 0
+            },
+            {
+                "device": "STE503_Y",
+                "chan": "CONTROL",
+                "val": 0
+            }
+        ],
+        "E5C": [
+            {
+                "device": "QTE503_X1",
+                "chan": "CONTROL",
+                "val": 0
+            },
+            {
+                "device": "QTE503_X2",
+                "chan": "CONTROL",
+                "val": 0
+            },
+            {
+                "device": "QTE503_Y",
+                "chan": "CONTROL",
+                "val": 0
+            },
+            {
+                "device": "STE504_X",
+                "chan": "CONTROL",
+                "val": 0
+            },
+            {
+                "device": "STE504_Y",
+                "chan": "CONTROL",
+                "val": 0
+            }
+        ],
+        "PII BUNCHING": [
+            {
+                "device": "R101",
+                "chan": "CONTROL_AMP",
+                "val": 1.12
+            },
+            {
+                "device": "R101",
+                "chan": "CONTROL_AMP_24MHZ",
+                "val": -0.21
+            },
+            {
+                "device": "R101",
+                "chan": "CONTROL_AMP_36MHZ",
+                "val": -1.85
+            },
+            {
+                "device": "R101",
+                "chan": "CONTROL_AMP_48MHZ",
+                "val": -2.36
+            },
+            {
+                "device": "R101",
+                "chan": "CONTROL_PHASE_24MHZ",
+                "val": -0.28
+            },
+            {
+                "device": "R101",
+                "chan": "CONTROL_PHASE_36MHZ",
+                "val": 1.3
+            },
+            {
+                "device": "R101",
+                "chan": "CONTROL_PHASE_48MHZ",
+                "val": 1.66
+            },
+            {
+                "device": "R101",
+                "chan": "PHASEB",
+                "val": 79.75
+            }
+        ],
+        "EBIS-K4": [
+            {
+                "device": "STK401",
+                "chan": "CONTROL_X",
+                "val": 0
+            },
+            {
+                "device": "STK401",
+                "chan": "CONTROL_Y",
+                "val": 0
+            },
+            {
+                "device": "STK402",
+                "chan": "CONTROL_X",
+                "val": 0
+            },
+            {
+                "device": "STK402",
+                "chan": "CONTROL_Y",
+                "val": 0
+            },
+            {
+                "device": "QDK401",
+                "chan": "CONTROL_X",
+                "val": 0
+            },
+            {
+                "device": "QDK401",
+                "chan": "CONTROL_Y",
+                "val": 0
+            },
+            {
+                "device": "QDK402",
+                "chan": "CONTROL_X",
+                "val": 0
+            },
+            {
+                "device": "QDK402",
+                "chan": "CONTROL_Y",
+                "val": 0
+            }
+        ],
+        "EBIS-K4E0": [
+            {
+                "device": "STK402",
+                "chan": "CONTROL_X",
+                "val": 0
+            },
+            {
+                "device": "STK402",
+                "chan": "CONTROL_Y",
+                "val": 0
+            },
+            {
+                "device": "QDE001",
+                "chan": "CONTROL_X",
+                "val": 0
+            },
+            {
+                "device": "QDE001",
+                "chan": "CONTROL_Y",
+                "val": 0
+            },
+            {
+                "device": "QDE002",
+                "chan": "CONTROL_X",
+                "val": 0
+            },
+            {
+                "device": "QDE002",
+                "chan": "CONTROL_Y",
+                "val": 0
+            }
+        ],
+        "EBIS-E0E1": [
+            {
+                "device": "STE002",
+                "chan": "CONTROL_X",
+                "val": 0
+            },
+            {
+                "device": "STE002",
+                "chan": "CONTROL_Y",
+                "val": 0
+            },
+            {
+                "device": "EDE001",
+                "chan": "CONTROL",
+                "val": 0
+            },
+            {
+                "device": "EDE002",
+                "chan": "CONTROL",
+                "val": 0
+            },
+            {
+                "device": "QDE101",
+                "chan": "CONTROL_X",
+                "val": 0
+            },
+            {
+                "device": "QDE101",
+                "chan": "CONTROL_Y",
+                "val": 0
+            },
+            {
+                "device": "STE101",
+                "chan": "CONTROL_X",
+                "val": 0
+            },
+            {
+                "device": "STE101",
+                "chan": "CONTROL_Y",
+                "val": 0
+            }
+        ],
+        "EBIS-E1E2": [
+            {
+                "device": "STE101",
+                "chan": "CONTROL_X",
+                "val": 0
+            },
+            {
+                "device": "STE101",
+                "chan": "CONTROL_Y",
+                "val": 0
+            },
+            {
+                "device": "EDE001",
+                "chan": "CONTROL",
+                "val": 0
+            },
+            {
+                "device": "EZE203",
+                "chan": "CONTROL",
+                "val": 0
+            },
+            {
+                "device": "STE207",
+                "chan": "CONTROL_X",
+                "val": 0
+            },
+            {
+                "device": "STE207",
+                "chan": "CONTROL_Y",
+                "val": 0
+            }
+        ]
+    }
+}

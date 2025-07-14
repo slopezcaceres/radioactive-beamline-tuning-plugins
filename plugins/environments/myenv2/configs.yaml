@@ -1,0 +1,5 @@
+name: myenv2
+description: "test environment"
+version: "0.1"
+dependencies:
+  - badger-opt

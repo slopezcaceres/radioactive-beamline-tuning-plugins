@@ -1,0 +1,4 @@
+name: CARIBUMATIC-L0
+version: "0.1"
+dependencies:
+  - badger-opt

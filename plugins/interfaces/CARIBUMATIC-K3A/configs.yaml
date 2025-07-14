@@ -1,0 +1,4 @@
+name: CARIBUMATIC-K3A
+version: "0.1"
+dependencies:
+  - badger-opt

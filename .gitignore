@@ -1,0 +1,28 @@
+# Python junk
+__pycache__/
+*.pyc
+
+# macOS junk
+.DS_Store
+
+# Logs and temp
+logs/
+*.log
+tmp/
+*.bak
+**/*.yaml.bak
+
+# Secrets or env
+.env
+
+# Ignore specific subfolders
+plugins/generators/
+logbook/
+db/
+archive/
+
+# Ignore root README.md only
+README.md
+# But allow README.md in any subdirectory
+#!*/README.md
+!plugins/**/README.md
