@@ -1,0 +1,16 @@
+name: llmbo_optimizer
+description: "LLM-based Bayesian Optimization optimizer for beam tuning"
+version: "0.1"
+dependencies:
+  - badger-opt
+  - botorch
+  - gpytorch 
+params:
+  lengthscale:
+    type: float
+    default: 0.5
+    description: "Initial lengthscale for the Bayesian optimization kernel"
+  good_tune:
+    type: list
+    default: [0.1, 0.2, 0.3]
+    description: "Good tuning voltages for the system"
