@@ -1,0 +1,149 @@
+critical_constraint_names: []
+data:
+  LAUREL_RATEMETER:MONITOR:
+    '0': 33.6311631438
+    '1': 16.8155815719
+    '2': 12.6116861789
+    '3': 12.6116861789
+    '4': 9.8090892503
+  QDK001:CONTROL_X:
+    '0': 200.0
+    '1': 500.0
+    '2': 200.0
+    '3': 200.0
+    '4': 200.0
+  QDK001:CONTROL_Y:
+    '0': 316.0
+    '1': 417.0954920104
+    '2': 235.9747574203
+    '3': 368.6288943384
+    '4': 306.8605489463
+  STK000:CONTROL_X:
+    '0': 470.0
+    '1': -593.4901931021
+    '2': 553.0512176031
+    '3': 423.1032356605
+    '4': 229.2567929884
+  STK000:CONTROL_Y:
+    '0': 110.0
+    '1': -162.5226481729
+    '2': 488.4003247737
+    '3': -140.4107145336
+    '4': 203.7758882012
+  STK001:CONTROL_X:
+    '0': -70.0
+    '1': 81.0034619191
+    '2': -243.9202039833
+    '3': 44.9053501379
+    '4': -107.2042945023
+  STK001:CONTROL_Y:
+    '0': -120.0
+    '1': 373.8919529056
+    '2': -210.1483073762
+    '3': -63.512953192
+    '4': -39.563967883
+  timestamp:
+    '0': 1722358837.22605
+    '1': 1722358840.564576
+    '2': 1722358844.039495
+    '3': 1722358847.678812
+    '4': 1722358851.819029
+  xopt_error:
+    '0': false
+    '1': false
+    '2': false
+    '3': false
+    '4': false
+  xopt_runtime:
+    '0': 3.092352899
+    '1': 3.066583052
+    '2': 3.0886344281
+    '3': 3.1531371279
+    '4': 3.2050458391
+description: ''
+environment:
+  interface:
+    name: CARIBU-matic
+    params:
+      params: null
+  name: CARIBU-matic
+  params:
+    params: null
+generator:
+  beta: 2.0
+  computation_time:
+    acquisition_optimization:
+      '0': 0.0550592421
+      '1': 0.178161151
+      '2': 0.27674666
+      '3': 0.7387663519
+    training:
+      '0': 0.094894869
+      '1': 0.088875419
+      '2': 0.0931068431
+      '3': 0.0756443201
+  custom_objective: null
+  fixed_features: null
+  gp_constructor:
+    covar_modules: {}
+    custom_noise_prior: null
+    mean_modules: {}
+    name: standard
+    trainable_mean_keys: []
+    transform_inputs: true
+    use_low_noise_prior: false
+  log_transform_acquisition_function: null
+  max_travel_distances: null
+  n_candidates: 1
+  n_interpolate_points: null
+  n_monte_carlo_samples: 128
+  name: upper_confidence_bound
+  numerical_optimizer:
+    max_iter: 2000
+    max_time: null
+    n_restarts: 20
+    name: LBFGS
+  supports_batch_generation: true
+  turbo_controller: null
+  use_cuda: false
+initial_points:
+  QDK001:CONTROL_X:
+    '0': 200.0
+  QDK001:CONTROL_Y:
+    '0': 316.0
+  STK000:CONTROL_X:
+    '0': 470.0
+  STK000:CONTROL_Y:
+    '0': 110.0
+  STK001:CONTROL_X:
+    '0': -70.0
+  STK001:CONTROL_Y:
+    '0': -120.0
+name: caribumatic
+script: null
+tags: null
+vocs:
+  constants: {}
+  constraints: {}
+  objectives:
+    LAUREL_RATEMETER:MONITOR: MAXIMIZE
+  observables: []
+  variables:
+    QDK001:CONTROL_X:
+    - 200.0
+    - 500.0
+    QDK001:CONTROL_Y:
+    - 200.0
+    - 500.0
+    STK000:CONTROL_X:
+    - -600.0
+    - 600.0
+    STK000:CONTROL_Y:
+    - -600.0
+    - 600.0
+    STK001:CONTROL_X:
+    - -600.0
+    - 600.0
+    STK001:CONTROL_Y:
+    - -600.0
+    - 600.0

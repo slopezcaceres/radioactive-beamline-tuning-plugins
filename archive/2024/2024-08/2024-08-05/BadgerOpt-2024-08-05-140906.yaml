@@ -1,0 +1,113 @@
+critical_constraint_names: []
+data:
+  LAUREL_RATEMETER:MONITOR:
+    '0': 146.1554298291
+    '1': 74.5490783021
+  QDK001:CONTROL_X:
+    '0': 413.0
+    '1': 335.0849921078
+  QDK001:CONTROL_Y:
+    '0': 316.0
+    '1': 312.6474672262
+  STK000:CONTROL_X:
+    '0': 470.0
+    '1': -560.9650400511
+  STK000:CONTROL_Y:
+    '0': 110.0
+    '1': -396.5905348854
+  STK001:CONTROL_X:
+    '0': 413.0
+    '1': -516.2594486518
+  STK001:CONTROL_Y:
+    '0': 316.0
+    '1': -524.7723067007
+  timestamp:
+    '0': 1722884946.761583
+    '1': 1722885138.386718
+  xopt_error:
+    '0': false
+    '1': false
+  xopt_runtime:
+    '0': 97.6340121399
+    '1': 191.318943671
+description: ''
+environment:
+  interface:
+    name: CARIBU-matic
+    params:
+      params: null
+  name: CARIBU-matic
+  params:
+    params: null
+generator:
+  beta: 2.0
+  computation_time:
+    acquisition_optimization:
+      '0': 0.0982819141
+    training:
+      '0': 0.0833271588
+  custom_objective: null
+  fixed_features: null
+  gp_constructor:
+    covar_modules: {}
+    custom_noise_prior: null
+    mean_modules: {}
+    name: standard
+    trainable_mean_keys: []
+    transform_inputs: true
+    use_low_noise_prior: false
+  log_transform_acquisition_function: null
+  max_travel_distances: null
+  n_candidates: 1
+  n_interpolate_points: null
+  n_monte_carlo_samples: 128
+  name: upper_confidence_bound
+  numerical_optimizer:
+    max_iter: 2000
+    max_time: null
+    n_restarts: 20
+    name: LBFGS
+  supports_batch_generation: true
+  turbo_controller: null
+  use_cuda: false
+initial_points:
+  QDK001:CONTROL_X:
+    '0': 413.0
+  QDK001:CONTROL_Y:
+    '0': 316.0
+  STK000:CONTROL_X:
+    '0': 470.0
+  STK000:CONTROL_Y:
+    '0': 110.0
+  STK001:CONTROL_X:
+    '0': 413.0
+  STK001:CONTROL_Y:
+    '0': 316.0
+name: caribumatic ucb beta=2 ci 22
+script: null
+tags: null
+vocs:
+  constants: {}
+  constraints: {}
+  objectives:
+    LAUREL_RATEMETER:MONITOR: MAXIMIZE
+  observables: []
+  variables:
+    QDK001:CONTROL_X:
+    - 200.0
+    - 500.0
+    QDK001:CONTROL_Y:
+    - 200.0
+    - 500.0
+    STK000:CONTROL_X:
+    - -600.0
+    - 600.0
+    STK000:CONTROL_Y:
+    - -600.0
+    - 600.0
+    STK001:CONTROL_X:
+    - -600.0
+    - 600.0
+    STK001:CONTROL_Y:
+    - -600.0
+    - 600.0

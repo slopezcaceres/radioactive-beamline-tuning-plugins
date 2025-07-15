@@ -1,0 +1,196 @@
+critical_constraint_names: []
+data:
+  LAUREL_RATEMETER:MONITOR:
+    '0': 2.8025969286
+    '1': 2.8025969286
+    '2': 2.8025969286
+    '3': 1.4012984643
+    '4': 2.8025969286
+    '5': 2.8025969286
+    '6': 2.8025969286
+    '7': 2.8025969286
+    '8': 2.8025969286
+  QDK001:CONTROL_X:
+    '0': 200.0
+    '1': 470.4496303616
+    '2': 485.7470710335
+    '3': 369.4087650627
+    '4': 385.5909456479
+    '5': 315.5690798707
+    '6': 454.1907289899
+    '7': 385.9548830037
+    '8': 446.0373836138
+  QDK001:CONTROL_Y:
+    '0': 316.0
+    '1': 354.7873803806
+    '2': 497.0054269124
+    '3': 356.0255850665
+    '4': 356.8955285833
+    '5': 373.5390313296
+    '6': 439.9483552932
+    '7': 452.3760138809
+    '8': 466.9586845776
+  STK000:CONTROL_X:
+    '0': 470.0
+    '1': -208.3701766768
+    '2': 265.9601490824
+    '3': -588.0610495806
+    '4': 150.0160502457
+    '5': 464.0784016271
+    '6': 287.8320102807
+    '7': 521.9025512367
+    '8': 242.4052106684
+  STK000:CONTROL_Y:
+    '0': 110.0
+    '1': 113.565075226
+    '2': 205.9572537811
+    '3': -421.408193931
+    '4': 194.8957460593
+    '5': 243.1259220293
+    '6': 259.8440871332
+    '7': 289.0136244714
+    '8': 546.242593484
+  STK001:CONTROL_X:
+    '0': -70.0
+    '1': 510.4850778793
+    '2': -322.9490991696
+    '3': -326.7542023212
+    '4': 310.5421742646
+    '5': 18.6338936296
+    '6': 24.6096641233
+    '7': -248.1005195522
+    '8': -162.9600798077
+  STK001:CONTROL_Y:
+    '0': -120.0
+    '1': -533.8888129483
+    '2': 392.4667307681
+    '3': 433.9996777475
+    '4': -402.440388629
+    '5': -153.1789260721
+    '6': -44.1862309478
+    '7': 215.2884696798
+    '8': 246.5384362754
+  timestamp:
+    '0': 1722363603.84543
+    '1': 1722363610.164191
+    '2': 1722363616.504111
+    '3': 1722363622.955796
+    '4': 1722363629.487021
+    '5': 1722363636.079822
+    '6': 1722363642.625586
+    '7': 1722363649.130249
+    '8': 1722363655.764297
+  xopt_error:
+    '0': false
+    '1': false
+    '2': false
+    '3': false
+    '4': false
+    '5': false
+    '6': false
+    '7': false
+    '8': false
+  xopt_runtime:
+    '0': 6.1663095772
+    '1': 6.069078838
+    '2': 6.0712674269
+    '3': 6.0644551869
+    '4': 6.070422851
+    '5': 6.1134860942
+    '6': 6.06780491
+    '7': 6.0830480661
+    '8': 6.0721032459
+description: ''
+environment:
+  interface:
+    name: CARIBU-matic
+    params:
+      params: null
+  name: CARIBU-matic
+  params:
+    params: null
+generator:
+  computation_time:
+    acquisition_optimization:
+      '0': 0.040910081
+      '1': 0.037960984
+      '2': 0.015857534
+      '3': 0.2468674688
+      '4': 0.264805611
+      '5': 0.268362202
+      '6': 0.186628435
+      '7': 0.3397279421
+    training:
+      '0': 0.090865552
+      '1': 0.11381075
+      '2': 0.252513323
+      '3': 0.098518657
+      '4': 0.0956225211
+      '5': 0.0908801821
+      '6': 0.1158784069
+      '7': 0.1069301129
+  custom_objective: null
+  fixed_features: null
+  gp_constructor:
+    covar_modules: {}
+    custom_noise_prior: null
+    mean_modules: {}
+    name: standard
+    trainable_mean_keys: []
+    transform_inputs: true
+    use_low_noise_prior: false
+  log_transform_acquisition_function: false
+  max_travel_distances: null
+  n_candidates: 1
+  n_interpolate_points: null
+  n_monte_carlo_samples: 128
+  name: expected_improvement
+  numerical_optimizer:
+    max_iter: 2000
+    max_time: null
+    n_restarts: 20
+    name: LBFGS
+  supports_batch_generation: true
+  turbo_controller: null
+  use_cuda: false
+initial_points:
+  QDK001:CONTROL_X:
+    '0': 200.0
+  QDK001:CONTROL_Y:
+    '0': 316.0
+  STK000:CONTROL_X:
+    '0': 470.0
+  STK000:CONTROL_Y:
+    '0': 110.0
+  STK001:CONTROL_X:
+    '0': -70.0
+  STK001:CONTROL_Y:
+    '0': -120.0
+name: caribumatic_exp-imp
+script: null
+tags: null
+vocs:
+  constants: {}
+  constraints: {}
+  objectives:
+    LAUREL_RATEMETER:MONITOR: MAXIMIZE
+  observables: []
+  variables:
+    QDK001:CONTROL_X:
+    - 200.0
+    - 500.0
+    QDK001:CONTROL_Y:
+    - 200.0
+    - 500.0
+    STK000:CONTROL_X:
+    - -600.0
+    - 600.0
+    STK000:CONTROL_Y:
+    - -600.0
+    - 600.0
+    STK001:CONTROL_X:
+    - -600.0
+    - 600.0
+    STK001:CONTROL_Y:
+    - -600.0
+    - 600.0

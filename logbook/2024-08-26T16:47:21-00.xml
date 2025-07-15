@@ -1,0 +1,21 @@
+<severity>NONE</severity>
+<location>not set</location>
+<keywords>none</keywords>
+<time>16:47:21</time>
+<isodate>2024-08-26</isodate>
+<author> </author>
+<category>USERLOG</category>
+<title>Badger</title>
+<metainfo>2024-08-26T16:47:21-00.xml</metainfo>
+<link>2024-08-26T16:47:21-00.ps</link>
+<file>2024-08-26T16:47:21-00.png</file>
+<text>Gain (LAUREL_RATEMETER:MONITOR): 851.4289 -&gt; 947.558
+Time cost: 1131.65s
+Points requested: 145
+Optimal solution index: 137
+Routine name: caribumatic K2K3 beta=2 ci 70
+Environment name: CARIBUMATIC-K2K3
+Optimization algorithm: upper_confidence_bound
+Data location: /Users/Sergiolopez/Library/Application Support/Badger/archive
+Log location: /Users/Sergiolopez/Library/Application Support/Badger/logbook
+</text>

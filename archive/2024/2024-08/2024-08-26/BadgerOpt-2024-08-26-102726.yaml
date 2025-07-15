@@ -1,0 +1,564 @@
+critical_constraint_names: []
+data:
+  LAUREL_RATEMETER:MONITOR:
+    '0': 878.8943968245
+    '1': 297.2154042833
+    '10': 288.387223958
+    '11': 328.6044898842
+    '12': 250.131775882
+    '13': 287.406315033
+    '14': 212.8572367309
+    '15': 199.1245117806
+    '16': 261.9026829823
+    '17': 219.7235992061
+    '18': 336.4517612844
+    '19': 625.8198941675
+    '2': 279.5590436328
+    '20': 655.2471619183
+    '21': 554.2135426405
+    '22': 421.7908377618
+    '3': 230.5135973814
+    '4': 178.525424355
+    '5': 175.5826975799
+    '6': 334.4899434343
+    '7': 387.4590253858
+    '8': 242.2845044818
+    '9': 159.8881547795
+  QDK001:CONTROL_X:
+    '0': 413.0
+    '1': 218.1265674596
+    '10': 359.0920167339
+    '11': 451.3746126573
+    '12': 443.0409282707
+    '13': 391.4849635109
+    '14': 411.4451137244
+    '15': 410.0964005867
+    '16': 436.4734091072
+    '17': 436.6850360829
+    '18': 372.6780034219
+    '19': 374.3382737503
+    '2': 464.7645449628
+    '20': 365.7713260863
+    '21': 360.8350998536
+    '22': 359.2189026961
+    '3': 382.9156424996
+    '4': 395.154300663
+    '5': 444.0453670063
+    '6': 394.6733667148
+    '7': 426.7548142081
+    '8': 389.9282284724
+    '9': 434.4159264297
+  QDK001:CONTROL_Y:
+    '0': 316.0
+    '1': 435.8490341159
+    '10': 263.8247117434
+    '11': 355.4553006181
+    '12': 256.8663229673
+    '13': 374.7169165555
+    '14': 311.9556317754
+    '15': 335.2250468339
+    '16': 330.1473040648
+    '17': 321.9334220095
+    '18': 306.5333402998
+    '19': 322.5153364776
+    '2': 284.4335251804
+    '20': 325.1960984018
+    '21': 327.3911293632
+    '22': 328.5807186182
+    '3': 334.2784372782
+    '4': 327.3806411686
+    '5': 296.562728087
+    '6': 316.1222981396
+    '7': 316.9406482475
+    '8': 301.1397041517
+    '9': 329.8700832189
+  QHK001:CONTROL:
+    '0': 60.0
+    '1': 144.937391288
+    '10': 48.1008396776
+    '11': 72.597950938
+    '12': 83.1118717622
+    '13': 46.1677115724
+    '14': 43.255097118
+    '15': 75.8279586932
+    '16': 130.1624686338
+    '17': 21.422605259
+    '18': 74.9447001722
+    '19': 57.0216507613
+    '2': 36.0782389735
+    '20': 55.9614070703
+    '21': 55.2156570365
+    '22': 54.7737460026
+    '3': 74.2511001142
+    '4': 65.6694017175
+    '5': 48.270525629
+    '6': 11.8235929343
+    '7': 99.9613914474
+    '8': 59.3356716746
+    '9': 69.2283224458
+  QSK001:CONTROL_Y:
+    '0': 342.0
+    '1': 41.8184887036
+    '10': 395.9621876851
+    '11': 322.0856500099
+    '12': 291.3505294657
+    '13': 402.6998673256
+    '14': 395.4299877216
+    '15': 324.0571652021
+    '16': 500.0
+    '17': 325.7134049606
+    '18': 322.6820721492
+    '19': 262.832888239
+    '2': 444.9048625687
+    '20': 240.5290493457
+    '21': 226.2493483222
+    '22': 220.2796613276
+    '3': 276.4216643171
+    '4': 349.2080832438
+    '5': 360.4156661488
+    '6': 228.8778224703
+    '7': 433.5957514302
+    '8': 398.1600610613
+    '9': 311.2004394523
+  STK000:CONTROL_X:
+    '0': 470.0
+    '1': -658.0991030295
+    '10': 521.4654228458
+    '11': 386.4283004839
+    '12': 332.5047123414
+    '13': 536.8634925296
+    '14': 177.0980995691
+    '15': 707.6632031391
+    '16': 378.3283031536
+    '17': 339.8010969148
+    '18': 596.1429535958
+    '19': 612.7169568634
+    '2': 760.8075760117
+    '20': 648.4529135989
+    '21': 669.9317273946
+    '22': 677.2429560178
+    '3': 303.4037664321
+    '4': 351.8685413517
+    '5': 662.5392008654
+    '6': 530.9568438627
+    '7': 411.9621463574
+    '8': 374.0364943143
+    '9': 532.8544042809
+  STK000:CONTROL_Y:
+    '0': 110.0
+    '1': 9.89722311
+    '10': 8.2108684546
+    '11': 322.7088206223
+    '12': 231.8715698846
+    '13': 151.4606487216
+    '14': 47.944255651
+    '15': 268.4868102862
+    '16': 106.9316194656
+    '17': 160.3590840187
+    '18': 146.5041838272
+    '19': 238.2253703094
+    '2': 118.7573750575
+    '20': 268.7224221389
+    '21': 289.8214496086
+    '22': 298.9322136874
+    '3': 109.3591768023
+    '4': 74.0811581221
+    '5': 148.6324358787
+    '6': 178.7691688118
+    '7': 47.547853119
+    '8': 484.6859693909
+    '9': -227.6012590103
+  STK001:CONTROL_X:
+    '0': -70.0
+    '1': -68.0424794554
+    '10': 52.7095719159
+    '11': -170.7033606133
+    '12': -26.8687820763
+    '13': -131.6615630129
+    '14': -326.1378117622
+    '15': 130.5753388215
+    '16': -135.0474673582
+    '17': 76.8694779661
+    '18': -265.6622467908
+    '19': -312.3892013948
+    '2': 75.6930794067
+    '20': -372.7133816047
+    '21': -409.8684999647
+    '22': -422.9875977662
+    '3': -191.1529857622
+    '4': 149.5418797973
+    '5': -256.3107298703
+    '6': -52.2991903909
+    '7': -73.1297107067
+    '8': -71.4693803703
+    '9': -62.5198993102
+  STK001:CONTROL_Y:
+    '0': -120.0
+    '1': 736.610093755
+    '10': 34.9235659524
+    '11': -242.6929335726
+    '12': -163.752880992
+    '13': -103.4282431059
+    '14': -232.4101161182
+    '15': -23.3894058604
+    '16': -24.4867572314
+    '17': -11.7557870338
+    '18': -315.7572113498
+    '19': -423.8125385578
+    '2': -547.0422990242
+    '20': -500.7693613546
+    '21': -548.7171354483
+    '22': -567.3952033442
+    '3': 177.5770170363
+    '4': -337.9869521002
+    '5': -5.595827287
+    '6': -230.1985428034
+    '7': -38.7174900571
+    '8': -94.9419326673
+    '9': -128.6063839307
+  timestamp:
+    '0': 1724686046.010339
+    '1': 1724686051.790317
+    '10': 1724686112.673454
+    '11': 1724686119.009881
+    '12': 1724686124.976742
+    '13': 1724686131.562341
+    '14': 1724686138.401652
+    '15': 1724686145.703695
+    '16': 1724686153.586774
+    '17': 1724686161.349127
+    '18': 1724686167.745986
+    '19': 1724686174.756042
+    '2': 1724686057.609737
+    '20': 1724686181.992335
+    '21': 1724686189.043269
+    '22': 1724686195.897167
+    '3': 1724686063.306372
+    '4': 1724686070.05741
+    '5': 1724686076.829482
+    '6': 1724686083.246486
+    '7': 1724686092.767217
+    '8': 1724686099.782074
+    '9': 1724686105.666981
+  xopt_error:
+    '0': false
+    '1': false
+    '10': false
+    '11': false
+    '12': false
+    '13': false
+    '14': false
+    '15': false
+    '16': false
+    '17': false
+    '18': false
+    '19': false
+    '2': false
+    '20': false
+    '21': false
+    '22': false
+    '3': false
+    '4': false
+    '5': false
+    '6': false
+    '7': false
+    '8': false
+    '9': false
+  xopt_runtime:
+    '0': 5.0983877392
+    '1': 5.0730075741
+    '10': 5.0790520268
+    '11': 5.070998301
+    '12': 5.0700587151
+    '13': 5.0785450391
+    '14': 5.1897934221
+    '15': 5.177126376
+    '16': 5.0762571269
+    '17': 5.074284829
+    '18': 5.0761727451
+    '19': 5.1842146378
+    '2': 5.08807153
+    '20': 5.1719496399
+    '21': 5.0835717041
+    '22': 5.0717156171
+    '3': 5.08275412
+    '4': 5.078444093
+    '5': 5.0780158769
+    '6': 5.1116644219
+    '7': 5.079594506
+    '8': 5.0761359339
+    '9': 5.0791762981
+description: ''
+environment:
+  interface:
+    best_post_dict:
+      QDK001:CONTROL_X: 413.0
+      QDK001:CONTROL_Y: 316.0
+      QHK001:CONTROL: 60.0
+      QSK001:CONTROL_Y: 342.0
+      STK000:CONTROL_X: 470.0
+      STK000:CONTROL_Y: 110.0
+      STK001:CONTROL_X: -70.0
+      STK001:CONTROL_Y: -120.0
+    difference: null
+    difference_read: false
+    environment:
+      interface:
+        best_post_dict:
+          QDK001:CONTROL_X: 413.0
+          QDK001:CONTROL_Y: 316.0
+          QHK001:CONTROL: 60.0
+          QSK001:CONTROL_Y: 342.0
+          STK000:CONTROL_X: 470.0
+          STK000:CONTROL_Y: 110.0
+          STK001:CONTROL_X: -70.0
+          STK001:CONTROL_Y: -120.0
+        difference: null
+        difference_read: false
+        environment: environments.CARIBUMATIC-K0.Environment
+        first_get_values_called: true
+        half_life_D: 630.6
+        half_life_G: 5508.0
+        half_life_P: 6.05
+        key: null
+        last_values:
+          QDK001:CONTROL_X: 359.2189026960823
+          QDK001:CONTROL_Y: 328.58071861819656
+          QHK001:CONTROL: 54.773746002557125
+          QSK001:CONTROL_Y: 220.27966132760534
+          STK000:CONTROL_X: 677.2429560178133
+          STK000:CONTROL_Y: 298.9322136873549
+          STK001:CONTROL_X: -422.9875977661869
+          STK001:CONTROL_Y: -567.3952033442238
+        main_thread_pause_executed: false
+        main_thread_set_values_executed: false
+        max_true_rate: 878.8943968245253
+        new_rate: 0
+        old_parameters: null
+        old_rate: null
+        params:
+          best_post_dict: null
+          difference: null
+          difference_read: false
+          environment: null
+          first_get_values_called: false
+          half_life_D: null
+          half_life_G: null
+          half_life_P: null
+          key: null
+          last_values: null
+          main_thread_pause_executed: false
+          main_thread_set_values_executed: false
+          max_true_rate: null
+          new_rate: null
+          old_parameters: null
+          old_rate: null
+          params: null
+          stop_thread: false
+        stop_thread: false
+      params:
+        best_post_dict: null
+        difference: null
+        difference_read: false
+        environment: null
+        first_get_values_called: false
+        half_life_D: null
+        half_life_G: null
+        half_life_P: null
+        key: null
+        last_values: null
+        main_thread_pause_executed: false
+        main_thread_set_values_executed: false
+        max_true_rate: null
+        new_rate: null
+        old_parameters: null
+        old_rate: null
+        params: null
+        stop_thread: false
+    first_get_values_called: true
+    half_life_D: 630.6
+    half_life_G: 5508.0
+    half_life_P: 6.05
+    key: null
+    last_values:
+      QDK001:CONTROL_X: 359.2189026960823
+      QDK001:CONTROL_Y: 328.58071861819656
+      QHK001:CONTROL: 54.773746002557125
+      QSK001:CONTROL_Y: 220.27966132760534
+      STK000:CONTROL_X: 677.2429560178133
+      STK000:CONTROL_Y: 298.9322136873549
+      STK001:CONTROL_X: -422.9875977661869
+      STK001:CONTROL_Y: -567.3952033442238
+    main_thread_pause_executed: false
+    main_thread_set_values_executed: false
+    max_true_rate: 878.8943968245253
+    name: CARIBUMATIC-K0
+    new_rate: 0
+    old_parameters: null
+    old_rate: null
+    params:
+      best_post_dict: null
+      difference: null
+      difference_read: false
+      environment: null
+      first_get_values_called: false
+      half_life_D: null
+      half_life_G: null
+      half_life_P: null
+      key: null
+      last_values: null
+      main_thread_pause_executed: false
+      main_thread_set_values_executed: false
+      max_true_rate: null
+      new_rate: null
+      old_parameters: null
+      old_rate: null
+      params: null
+      stop_thread: false
+    stop_thread: false
+  name: CARIBUMATIC-K0
+  params:
+    best_post_dict: null
+    difference: null
+    difference_read: false
+    environment: null
+    first_get_values_called: false
+    half_life_D: null
+    half_life_G: null
+    half_life_P: null
+    key: null
+    last_values: null
+    main_thread_pause_executed: false
+    main_thread_set_values_executed: false
+    max_true_rate: null
+    new_rate: null
+    old_parameters: null
+    old_rate: null
+    params: null
+    stop_thread: false
+generator:
+  beta: 2.0
+  computation_time:
+    acquisition_optimization:
+      '0': 0.1220121479
+      '1': 0.5009563151
+      '10': 1.028692096
+      '11': 0.692698187
+      '12': 1.306025624
+      '13': 1.4572057079
+      '14': 1.928721258
+      '15': 2.6155452749
+      '16': 2.449672872
+      '17': 1.1144105811
+      '18': 1.612705654
+      '19': 1.82339788
+      '2': 0.405868731
+      '20': 1.7700637821
+      '21': 1.56211317
+      '22': 1.178769422
+      '3': 1.47692754
+      '4': 1.504619709
+      '5': 1.1207972011
+      '6': 4.221067179
+      '7': 1.757868916
+      '8': 0.6199086818
+      '9': 1.7434217208
+    training:
+      '0': 0.459490557
+      '1': 0.1070958069
+      '10': 0.1168364189
+      '11': 0.082607364
+      '12': 0.0814367961
+      '13': 0.0777374259
+      '14': 0.0769757039
+      '15': 0.0769710939
+      '16': 0.1211228422
+      '17': 0.0894518858
+      '18': 0.0964821361
+      '19': 0.1261727461
+      '2': 0.090881618
+      '20': 0.0763330259
+      '21': 0.099841695
+      '22': 0.11053379
+      '3': 0.081272546
+      '4': 0.0754939141
+      '5': 0.065050263
+      '6': 0.0921995372
+      '7': 0.066408393
+      '8': 0.067557364
+      '9': 0.068826098
+  custom_objective: null
+  fixed_features: null
+  gp_constructor:
+    covar_modules: {}
+    custom_noise_prior: null
+    mean_modules: {}
+    name: standard
+    trainable_mean_keys: []
+    transform_inputs: true
+    use_low_noise_prior: false
+  log_transform_acquisition_function: null
+  max_travel_distances: null
+  n_candidates: 1
+  n_interpolate_points: null
+  n_monte_carlo_samples: 128
+  name: upper_confidence_bound
+  numerical_optimizer:
+    max_iter: 2000
+    max_time: null
+    n_restarts: 20
+    name: LBFGS
+  supports_batch_generation: true
+  turbo_controller: null
+  use_cuda: false
+initial_points:
+  QDK001:CONTROL_X:
+    '0': 413.0
+  QDK001:CONTROL_Y:
+    '0': 316.0
+  QHK001:CONTROL:
+    '0': 60.0
+  QSK001:CONTROL_Y:
+    '0': 342.0
+  STK000:CONTROL_X:
+    '0': 470.0
+  STK000:CONTROL_Y:
+    '0': 110.0
+  STK001:CONTROL_X:
+    '0': -70.0
+  STK001:CONTROL_Y:
+    '0': -120.0
+name: caribumatic K0 beta=2 ci 59 bkg check
+script: null
+tags: null
+vocs:
+  constants: {}
+  constraints: {}
+  objectives:
+    LAUREL_RATEMETER:MONITOR: MAXIMIZE
+  observables: []
+  variables:
+    QDK001:CONTROL_X:
+    - 200.0
+    - 500.0
+    QDK001:CONTROL_Y:
+    - 200.0
+    - 500.0
+    QHK001:CONTROL:
+    - 0.0
+    - 200.0
+    QSK001:CONTROL_Y:
+    - 0.0
+    - 500.0
+    STK000:CONTROL_X:
+    - -800.0
+    - 800.0
+    STK000:CONTROL_Y:
+    - -800.0
+    - 800.0
+    STK001:CONTROL_X:
+    - -800.0
+    - 800.0
+    STK001:CONTROL_Y:
+    - -800.0
+    - 800.0
