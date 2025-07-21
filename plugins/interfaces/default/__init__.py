@@ -2,15 +2,14 @@ from badger import interface
 
 
 class Interface(interface.Interface):
-
-    name = 'default'
+    name = "default"
     # If params not specified, it would be an empty dict
 
     # Private variables
     _states: dict
 
-        def __init__(self, **data): 
-            super().__init__(**data)
+    def __init__(self, **data):
+        super().__init__(**data)
 
         self._states = {}
 
