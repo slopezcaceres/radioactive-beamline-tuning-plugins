@@ -8,7 +8,7 @@ class Interface(interface.Interface):
 
     def __init__(self, params=None):
         super().__init__(params=params)
-       self.last_values = {        
+        self.last_values = {        
             'QTL001:CONTROL_X1': 0.0,
             'QTL001:CONTROL_X2': 0.0,
             'QTL001:CONTROL_Y': 0.0,

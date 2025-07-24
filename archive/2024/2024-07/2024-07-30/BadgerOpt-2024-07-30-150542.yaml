@@ -33,7 +33,6 @@ generator:
     trainable_mean_keys: []
     transform_inputs: true
     use_low_noise_prior: false
-  log_transform_acquisition_function: null
   max_travel_distances: null
   model: null
   n_candidates: 1
