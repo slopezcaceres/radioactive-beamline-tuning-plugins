@@ -1,0 +1,5 @@
+name: dummy_section1
+description: "environment for dummy_section1"
+version: "0.1"
+dependencies:
+  - badger-opt
