@@ -246,7 +246,7 @@ class Interface(interface.Interface):
             self._beam_off_thread.join()
 
     def _update_json_config(self):
-        config_path = "/Users/Sergiolopez/Library/Application Support/Badger/plugins/interfaces/config_caribu.json"  # Adjust this path as needed
+        config_path = "/Users/slopezcaceres/Library/Application Support/Badger/plugins/interfaces/config_caribu.json"  # Adjust this path as needed
         try:
             with open(config_path, 'r') as file:
                 config = json.load(file)

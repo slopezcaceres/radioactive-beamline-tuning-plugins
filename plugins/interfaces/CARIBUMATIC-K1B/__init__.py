@@ -54,7 +54,7 @@ class Interface(interface.Interface):
         return true_rate
 
     def _update_json_config(self):
-        config_path = "/Users/Sergiolopez/Library/Application Support/Badger/plugins/interfaces/config_awacs.json"
+        config_path = "/Users/slopezcaceres/Library/Application Support/Badger/plugins/interfaces/config_awacs.json"
         try:
             with open(config_path, 'r') as file:
                 config = json.load(file)

@@ -9,7 +9,7 @@ BADGER_ARCHIVE_ROOT:
     historical optimization runs
   display_name: archive root
   is_path: true
-  value: /Users/Sergiolopez/Library/Application Support/Badger/archive
+  value: /Users/slopezcaceres/Library/Application Support/Badger/archive
 BADGER_DATA_DUMP_PERIOD:
   description: Minimum time interval between data dumps, unit is second
   display_name: data dump period
@@ -25,19 +25,19 @@ BADGER_LOGBOOK_ROOT:
     (GUI mode)
   display_name: logbook root
   is_path: true
-  value: /Users/Sergiolopez/Library/Application Support/Badger/logbook
+  value: /Users/slopezcaceres/Library/Application Support/Badger/logbook
 BADGER_PLUGIN_ROOT:
   description: This setting (BADGER_PLUGIN_ROOT) tells Badger where to look for the
     plugins
   display_name: plugin root
   is_path: true
-  value: /Users/Sergiolopez/Library/Application Support/Badger/plugins
+  value: /Users/slopezcaceres/Library/Application Support/Badger/plugins
 BADGER_TEMPLATE_ROOT:
   description: This setting (BADGER_TEMPLATE_ROOT) tells Badger where to store the
     routine templates
   display_name: template root
   is_path: true
-  value: /Users/Sergiolopez/Library/Application Support/Badger/templates
+  value: /Users/slopezcaceres/Library/Application Support/Badger/templates
 BADGER_THEME:
   description: Theme for the Badger GUI
   display_name: theme

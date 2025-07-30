@@ -7,7 +7,7 @@ Interface, configs_caribumatic = get_intf('EBIS-K4E0')
 int_caribumatic = Interface(configs_caribumatic['params'])
         
 # Load configuration from config_caribu.json
-config_path = '/Users/Sergiolopez/Library/Application Support/Badger/plugins/interfaces/config_awacs.json'
+config_path = '/Users/slopezcaceres/Library/Application Support/Badger/plugins/interfaces/config_awacs.json'
 
 with open(config_path, 'r') as file:
     config = json.load(file)

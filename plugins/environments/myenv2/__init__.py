@@ -23,7 +23,7 @@ class Environment(environment.Environment):
 
     def get_variables(self, variable_names: list[str]) -> dict:
        
-        file_path = '/Users/Sergiolopez/Library/Application Support/Badger/plugins/interfaces/config_awacs.json' # Path to hist.dat
+        file_path = '/Users/slopezcaceres/Library/Application Support/Badger/plugins/interfaces/config_awacs.json' # Path to hist.dat
         try:
             counts = np.loadtxt(file_path)
             print(f"Loaded {len(counts)} bins from {file_path}")
