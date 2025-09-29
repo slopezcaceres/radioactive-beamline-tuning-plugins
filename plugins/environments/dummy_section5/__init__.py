@@ -3,7 +3,7 @@ from typing import Optional
 from pydantic import Field
 
 class Environment(environment.Environment):
-    name = "DUMMY_SECTION5"
+    name = "dummy_section5"
 
     peak_x:Optional[float]=Field(default=450.0, description='maximum value of x')
     peak_y:Optional[float]=Field(default=250.0, description='maximum value of y')
@@ -20,9 +20,6 @@ class Environment(environment.Environment):
         "QDK001:CONTROL_X": 300.0,
         "QDK001:CONTROL_Y": 300.0,
     }
-
-    def __init__(self, interface=None, params=None,**kwargs):
-        super().__init__(interface=None, params=params, **kwargs)
 
     def set_variables(self, variable_inputs):
         self._variables.update(variable_inputs)

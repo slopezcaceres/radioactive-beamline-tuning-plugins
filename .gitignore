@@ -22,7 +22,7 @@ db/
 archive/
 
 # Ignore root README.md only
-README.md
+#README.md
 # But allow README.md in any subdirectory
 #!*/README.md
 !plugins/**/README.md
