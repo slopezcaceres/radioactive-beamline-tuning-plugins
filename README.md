@@ -4,6 +4,8 @@ This repository contains a collection of plugins for the integration of **Artifi
  
 The plugins extend Badger with additional **environments** and **interfaces** to communicate with machines in a VSystem control network via API server. 
 
+You can see the results in the paper [AI-assisted transport of radioactive ion beams](https://journals.aps.org/prab/pdf/10.1103/bwxw-w9jc)
+
 ---
 
 ## Installation
