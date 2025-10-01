@@ -1,4 +1,4 @@
-# Badger-Plugins
+# Radioactive-Beamline-Tuning-Plugins
 
 This repository contains a collection of plugins for the integration of **Artificial Intelligence** into the workflows of radioactive ion beam tuning.
  
