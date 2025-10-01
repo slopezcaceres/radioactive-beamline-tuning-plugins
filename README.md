@@ -10,14 +10,13 @@ The plugins extend Badger with additional **environments** and **interfaces** to
 
 Clone the repository into the Badger plugin root:
 
-```bash
+```
 git clone https://github.com/slopezcaceres/badger-plugins.git
 ```
 
 Make sure the environment variable BADGER_PLUGIN_ROOT points to this repository so Badger can automatically discover the plugins:
 
-```bash
-Copy code
+```
 export BADGER_PLUGIN_ROOT=/path/to/badger-plugins
 ```
 You can add this line to your .bashrc or .zshrc for convenience.
