@@ -1,8 +1,8 @@
 # Badger-Plugins
 
-This repository contains a collection of plugins for [Badger](https://xopt-org.github.io/Badger/), a framework for autonomous control and optimization of experimental systems.  
-
-The plugins extend Badger with additional **environments** and **interfaces** to support the integration of **Artificial Intelligence** into the workflows of radioactive ion beam tuning. 
+This repository contains a collection of plugins for the integration of **Artificial Intelligence** into the workflows of radioactive ion beam tuning.
+ 
+The plugins extend Badger with additional **environments** and **interfaces** to communicate with machines in a VSystem control network via API server. 
 
 ---
 
@@ -37,10 +37,14 @@ Each plugin follows the Badger plugin specification and can be loaded automatica
 ## Usage
 
 After installing and configuring, launch Badger as usual.
+
 The plugins from this repository will be available in the GUI.
+
+Network operator should allow access to server before running the optimization. 
 
 
 ## Documentation
+
 For details on the Badger framework itself, see the official documentation:
 
 Badger Optimizer (https://xopt-org.github.io/Badger/)
