@@ -11,7 +11,7 @@ The plugins extend Badger with additional **environments** and **interfaces** to
 Clone the repository into the Badger plugin root:
 
 ```
-git clone https://github.com/slopezcaceres/badger-plugins.git
+git clone https://github.com/slopezcaceres/radioactive-beamline-tuning-plugins.git
 ```
 
 Make sure the environment variable BADGER_PLUGIN_ROOT points to this repository so Badger can automatically discover the plugins:
